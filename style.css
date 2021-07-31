@@ -13,7 +13,7 @@ li {
 }
 
 header {
-  background: #b6e1e0;
+  background: #fb8d62;
 }
 
 .logo img {
@@ -33,7 +33,7 @@ nav {
 
 #navigation {
   float: right;
-  margin-top: 18px;
+  margin-top: 20px;
 }
 
 #navigation a {
@@ -45,13 +45,17 @@ nav {
 }
 
 #navigation a:hover {
-  color: #b6e1e0;
+  color: gold;
 }
 
 .wrap {
   max-width: 800px;
   padding: 20px;
   margin: 0 auto;
+}
+
+hr.dotted {
+  border-top: 3px dotted #bbb;
 }
 
 #section-one {
@@ -66,13 +70,13 @@ nav {
 #section-one nav a {
   font-family: "oswald";
   text-decoration: none;
-  color: #b6e1e0;
+  color: white;
   padding: 20px;
   font-size: 24px;
 }
 
 #section-one nav a:hover {
-  color: #b6e1e0;
+  color: gold;
 }
 
 #section-one h1 {
@@ -85,9 +89,9 @@ nav {
 }
 
 #section-two .wrap {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 1%;
-  color: #ccc;
+  color: white;
   padding: 20px 40px;
   width: 720px;
 }
@@ -124,7 +128,7 @@ nav {
 }
 
 footer {
-  background: #b6e1e0;
+  background: #fb8d62;
   text-align: center;
   padding: 20px;
   color: white;
@@ -159,4 +163,8 @@ footer {
 
 #section-two-about #image img {
   width: 80%;
+}
+
+p.Copyright-section {
+  font-size: 12px;
 }
